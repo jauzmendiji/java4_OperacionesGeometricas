@@ -9,13 +9,14 @@ public class OperacionesGeometricas {
 	public static void main (String args[]) {
 
 	double radio, base, altura, resultadoPeri, resultadoArea;
-	char resp;
+
+	String resp = new String();
 
 	Scanner preg = new Scanner(System.in);
 	System.out.print("\n¿Que figura quieres calcular? (circulo, rectangulo): ");
-	resp = preg.nextString();
+	resp = preg.nextLine();
 
-	if (resp = "rectangulo"){
+	if (resp.equals("rectangulo")){
 
 		Rectangulo rectangulo = new Rectangulo();
 
