@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+
+/* Utilizamos classpath para definirle a java donde se encuentran los archivos que vamos a utilizar al compilar los programas
+
+CLASSPATH=:/home/zubiri/proyectosjava/java4_operacionesGeometricas/clases;
+*/
+
 /*
  *Programa para visualizar en pantalla el resultado 
  * de las operaciones del circulo y rectangulo
@@ -9,6 +15,8 @@ public class OperacionesGeometricas {
 	public static void main (String args[]) {
 
 	double radio, base, altura, resultadoPeri, resultadoArea;
+
+	String resp = new String();
 
 	Scanner preg = new Scanner(System.in);
 	System.out.print("\n¿Que figura quieres calcular? (circulo, rectangulo): ");

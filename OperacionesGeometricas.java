@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+
+/* Utilizamos classpath para definirle a java donde se encuentran los archivos que vamos a utilizar al compilar los programas. Lo escribiremos en la consola, y veremos que funciona. Tras eso, volveremos al classpath anterior con export CLASSPATH;
+
+CLASSPATH=:/home/zubiri/proyectosjava/java4_operacionesGeometricas/clases;
+*/
+
 /*
  *Programa para visualizar en pantalla el resultado 
  * de las operaciones del circulo y rectangulo
