@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import com.zubiri.geometria.*;
+import com.zubiri.geometria.Circulo;
+import com.zubiri.geometria.Rectangulo;
 /* Utilizamos los paquetes para agrupar los archivos que utilizaremos y asi poder llamarlos en diferentes programas aunque no estemos en el mismo directorio. Crearemos una carpeta donde guardar estos archivos, los modificaremos escribiendo al principio del programa que es parte de un paquete (calculo en este caso) y lo llamaremos y lo usaremos.*/
 
 /* Utilizamos classpath para definirle a java donde se encuentran los archivos que vamos a utilizar al compilar los programas. Lo escribiremos en la consola, y veremos que funciona. Tras eso, volveremos al classpath anterior con export CLASSPATH;
